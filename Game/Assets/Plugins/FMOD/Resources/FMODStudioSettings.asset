@@ -80,5 +80,6 @@ MonoBehaviour:
   - Master
   Banks:
   - Effects
+  - Music
   BanksToLoad: []
   LiveUpdatePort: 9264
