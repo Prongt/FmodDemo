@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{ff86c787-fe23-4011-8693-8c72850ae647}">
+		<property name="assetPath">
+			<value>Music/Wintergatan/wintergatan_Banjo.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>208.9794784580499</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{df2ffc5f-93bf-4f46-b876-4c9724a5f8f8}</destination>
+		</relationship>
+	</object>
+</objects>

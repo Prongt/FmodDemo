@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{b2aa1217-6ea4-41d1-bef3-1e850ed50666}">
+		<property name="name">
+			<value>HatEquiped</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e5d1c809-2515-4567-840f-b9080b3eaec6}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{0c4e6f95-d025-4d9d-9cb1-7e4f1c787798}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{0c4e6f95-d025-4d9d-9cb1-7e4f1c787798}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

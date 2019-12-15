@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{a5ac78a5-8cc5-4e6e-8d6a-4655257d4c1a}">
 		<property name="assetPath">
-			<value>Espionage LOOP MOVING.wav</value>
+			<value>TO DELETE/Espionage LOOP MOVING.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

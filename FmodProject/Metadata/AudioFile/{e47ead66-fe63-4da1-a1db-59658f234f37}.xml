@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{e47ead66-fe63-4da1-a1db-59658f234f37}">
 		<property name="assetPath">
-			<value>Solemn City LOOP.wav</value>
+			<value>TO DELETE/Solemn City LOOP.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

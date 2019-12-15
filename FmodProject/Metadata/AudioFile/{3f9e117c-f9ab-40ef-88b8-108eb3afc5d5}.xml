@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{3f9e117c-f9ab-40ef-88b8-108eb3afc5d5}">
 		<property name="assetPath">
-			<value>Santas Workshop LOOPABLE.wav</value>
+			<value>TO DELETE/Santas Workshop LOOPABLE.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
