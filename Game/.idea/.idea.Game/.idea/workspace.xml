@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="683b62b7-a290-4aa8-82d0-76c68b05e3d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Effects.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Effects.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Master.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Master.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Master.strings.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Master.strings.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music.bytes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Music.bytes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Folder.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Master.bank" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Master.strings.bank" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Music.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Music.bank" afterDir="false" />
@@ -31,6 +24,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioGlobalParameterTriggerEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioGlobalParameterTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioEventEmitter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -92,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576440583388</updated>
-      <workItem from="1576440586650" duration="2763000" />
+      <workItem from="1576440586650" duration="4511000" />
     </task>
     <servers />
   </component>
@@ -114,5 +108,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="691" y="243" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576441411413" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576450536945">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576450536945" />
   </component>
 </project>

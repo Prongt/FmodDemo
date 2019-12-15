@@ -337,7 +337,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feefe7c1531c0274687226ac4d04187f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fmodEvent: event:/Music
+  eventToPlay: event:/Music
+  hatChangeParam: HatEquipped
+  actionParam: ActionState
 --- !u!1 &1398585220
 GameObject:
   m_ObjectHideFlags: 0
