@@ -344,7 +344,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!135 &1376507893
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -431,8 +431,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  parameter: Alert
-  TriggerEvent: 13
+  parameter: HatEquiped
+  TriggerEvent: 11
   value: 1
 --- !u!114 &1376507898
 MonoBehaviour:
@@ -447,8 +447,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  parameter: Alert
-  TriggerEvent: 14
+  parameter: HatEquiped
+  TriggerEvent: 12
   value: 0
 --- !u!1 &1398585220
 GameObject:

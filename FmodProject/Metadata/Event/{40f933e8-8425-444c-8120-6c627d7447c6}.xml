@@ -195,6 +195,9 @@
 		<property name="length">
 			<value>103</value>
 		</property>
+		<property name="name">
+			<value>Core Loop</value>
+		</property>
 		<relationship name="timeline">
 			<destination>{3ea293cc-101e-4f2c-adb8-c6a8abd24f12}</destination>
 		</relationship>
