@@ -16,7 +16,7 @@ public class MusicManager : MonoBehaviour
     bool state = false;
     bool distort = false;
 
-
+    
     void Awake()
     {
         FindComponents();

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
 	<object class="MixerReturn" id="{c975b922-9531-45a6-aed7-a177338d40b5}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
 		<property name="overridingInputFormat">
 			<value>2</value>
 		</property>
@@ -28,8 +31,26 @@
 	</object>
 	<object class="MixerBusPanner" id="{80aae98d-2b43-450d-ace2-b5ee9c3bf31a}" />
 	<object class="SFXReverbEffect" id="{58ab3bfc-ddcb-499a-81d6-143ade3a8dcf}">
+		<property name="decayTime">
+			<value>1400</value>
+		</property>
+		<property name="earlyDelay">
+			<value>7</value>
+		</property>
+		<property name="lateDelay">
+			<value>11</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>10</value>
+		</property>
+		<property name="highCut">
+			<value>500</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>92</value>
+		</property>
 		<property name="wetLevel">
-			<value>0</value>
+			<value>7</value>
 		</property>
 		<property name="dryLevel">
 			<value>-80</value>

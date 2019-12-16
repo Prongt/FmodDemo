@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Master.strings.bank" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Music.bank" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Music.bank" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FmodProject/Metadata/Event/{40f933e8-8425-444c-8120-6c627d7447c6}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Metadata/Event/{40f933e8-8425-444c-8120-6c627d7447c6}.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FmodProject/Metadata/Event/{5748d8c3-8246-46d9-a626-0b4558673b24}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Metadata/Event/{5748d8c3-8246-46d9-a626-0b4558673b24}.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset" afterDir="false" />
@@ -17,6 +16,7 @@
       <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Master.bank" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Master.strings.bank" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Music.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Music.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576440583388</updated>
       <workItem from="1576440586650" duration="4876000" />
-      <workItem from="1576518548905" duration="2419000" />
+      <workItem from="1576518548905" duration="3509000" />
     </task>
     <servers />
   </component>

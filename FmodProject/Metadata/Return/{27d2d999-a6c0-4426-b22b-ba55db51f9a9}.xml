@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerReturn" id="{27d2d999-a6c0-4426-b22b-ba55db51f9a9}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
+		<property name="name">
+			<value>Flanger</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{df08cdcc-9bd1-4c98-869d-eb8370e1bd3d}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{b098081d-9a54-48af-95be-fe885f9303b4}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{8907f02c-406e-4540-8850-918f36c7dcdb}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{df08cdcc-9bd1-4c98-869d-eb8370e1bd3d}">
+		<relationship name="effects">
+			<destination>{a7f8ac00-2385-4349-a9ad-2474a159286c}</destination>
+			<destination>{0bf8a914-e675-46aa-b9b8-173c097a4093}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{b098081d-9a54-48af-95be-fe885f9303b4}" />
+	<object class="FlangerEffect" id="{a7f8ac00-2385-4349-a9ad-2474a159286c}">
+		<property name="rate">
+			<value>0.699999988</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{0bf8a914-e675-46aa-b9b8-173c097a4093}" />
+</objects>
