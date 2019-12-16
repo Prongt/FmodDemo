@@ -1,4 +1,6 @@
-﻿using FMODUnity;
+﻿using System;
+using FMOD.Studio;
+using FMODUnity;
 using UnityEngine;
 
 [RequireComponent(typeof(StudioEventEmitter))]
@@ -7,23 +9,33 @@ public class MusicManager : MonoBehaviour
     [EventRef] public string eventToPlay;
     [ParamRef] public string hatChangeParam;
     [ParamRef] public string actionParam;
+    [ParamRef] public string distortParam;
     
-    StudioEventEmitter eventEmitter;
+    public StudioEventEmitter eventEmitter;
     bool hatEquipped = false;
     bool state = false;
+    bool distort = false;
 
 
     void Awake()
     {
-        eventEmitter = eventEmitter ? eventEmitter : GetComponent<StudioEventEmitter>();
-
+        FindComponents();
         eventEmitter.Event = eventToPlay;
+    }
+
+    void FindComponents()
+    {
+        eventEmitter = eventEmitter ? eventEmitter : GetComponent<StudioEventEmitter>();
+    }
+
+    void OnValidate()
+    {
+        FindComponents();
     }
 
     void Start()
     {
         eventEmitter.Play();
-        
     }
 
     void Update()
@@ -39,12 +51,25 @@ public class MusicManager : MonoBehaviour
         {
             ChangeState();
         }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            ChangeDistort();
+        }
     }
 
     void ChangeState()
     {
         state = !state;
-        Debug.Log(state);
+        //Debug.Log(state );
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName(actionParam, state ? 1.0f : 0.0f);
+    }
+    
+    void ChangeDistort()
+    {
+        distort = !distort;
+        //Debug.Log(distort);
+
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName(distortParam, distort ? 1.0f : 0.0f);
     }
 }

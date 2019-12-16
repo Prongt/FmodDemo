@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="683b62b7-a290-4aa8-82d0-76c68b05e3d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Master.bank" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Master.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Master.strings.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Music.bank" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Music.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FmodProject/Metadata/Event/{40f933e8-8425-444c-8120-6c627d7447c6}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Metadata/Event/{40f933e8-8425-444c-8120-6c627d7447c6}.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FmodProject/Metadata/Event/{5748d8c3-8246-46d9-a626-0b4558673b24}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Metadata/Event/{5748d8c3-8246-46d9-a626-0b4558673b24}.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset" afterDir="false" />
@@ -25,6 +30,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioGlobalParameterTriggerEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioGlobalParameterTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioEventEmitter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -86,7 +92,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576440583388</updated>
-      <workItem from="1576440586650" duration="4511000" />
+      <workItem from="1576440586650" duration="4876000" />
+      <workItem from="1576518548905" duration="2419000" />
     </task>
     <servers />
   </component>
