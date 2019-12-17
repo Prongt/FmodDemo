@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="683b62b7-a290-4aa8-82d0-76c68b05e3d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Master.bank" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Master.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Master.strings.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Music.bank" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Music.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FmodProject/Metadata/Event/{40f933e8-8425-444c-8120-6c627d7447c6}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Metadata/Event/{40f933e8-8425-444c-8120-6c627d7447c6}.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Master.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Master.strings.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Music.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Music.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +25,16 @@
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioGlobalParameterTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioEventEmitter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" />
       </list>
     </option>
   </component>
@@ -93,6 +92,8 @@
       <updated>1576440583388</updated>
       <workItem from="1576440586650" duration="4876000" />
       <workItem from="1576518548905" duration="3509000" />
+      <workItem from="1576534067056" duration="1011000" />
+      <workItem from="1576595899352" duration="1401000" />
     </task>
     <servers />
   </component>
@@ -106,17 +107,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Inspection_severity/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576442802308" />
-    <state x="707" y="366" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1576440968074">
+    <state x="707" y="366" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1576597448548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="707" y="366" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576440968074" />
+    <state x="707" y="366" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576597448548" />
     <state x="691" y="243" key="RiderGenerateDialog" timestamp="1576441411413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="691" y="243" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576441411413" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576450536945">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576597297421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576450536945" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576597297421" />
   </component>
 </project>
