@@ -27,8 +27,18 @@ namespace FMODUnity
         private bool hasTriggered = false;
         private bool isQuitting = false;
         private bool isOneshot = false;
+        Transform transform1;
+        Rigidbody2D rigidBody2D;
+        Rigidbody rigidBody;
 
         private const string SnapshotString = "snapshot";
+
+        void Awake()
+        {
+            rigidBody = GetComponent<Rigidbody>();
+            rigidBody2D = GetComponent<Rigidbody2D>();
+            transform1 = GetComponent<Transform>();
+        }
 
         void Start() 
         {
@@ -150,18 +160,15 @@ namespace FMODUnity
                 // Only want to update if we need to set 3D attributes
                 if (is3D)
                 {
-                    var rigidBody = GetComponent<Rigidbody>();
-                    var rigidBody2D = GetComponent<Rigidbody2D>();
-                    var transform = GetComponent<Transform>();
                     if (rigidBody)
                     {
                         instance.set3DAttributes(RuntimeUtils.To3DAttributes(gameObject, rigidBody));
-                        RuntimeManager.AttachInstanceToGameObject(instance, transform, rigidBody);
+                        RuntimeManager.AttachInstanceToGameObject(instance, transform1, rigidBody);
                     }
                     else
                     {
                         instance.set3DAttributes(RuntimeUtils.To3DAttributes(gameObject, rigidBody2D));
-                        RuntimeManager.AttachInstanceToGameObject(instance, transform, rigidBody2D);
+                        RuntimeManager.AttachInstanceToGameObject(instance, transform1, rigidBody2D);
                     }
                 }
             }
