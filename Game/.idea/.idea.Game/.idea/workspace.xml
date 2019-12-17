@@ -32,9 +32,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" />
       </list>
     </option>
   </component>
@@ -93,7 +93,7 @@
       <workItem from="1576440586650" duration="4876000" />
       <workItem from="1576518548905" duration="3509000" />
       <workItem from="1576534067056" duration="1011000" />
-      <workItem from="1576595899352" duration="1401000" />
+      <workItem from="1576595899352" duration="2020000" />
     </task>
     <servers />
   </component>
