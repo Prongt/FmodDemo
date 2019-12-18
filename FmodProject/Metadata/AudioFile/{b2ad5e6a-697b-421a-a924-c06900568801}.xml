@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{b2ad5e6a-697b-421a-a924-c06900568801}">
 		<property name="assetPath">
-			<value>Music/New Folder/omninus_Banjo.wav</value>
+			<value>Music/Omninus/omninus_Banjo.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
