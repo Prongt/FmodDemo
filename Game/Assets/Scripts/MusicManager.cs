@@ -8,8 +8,8 @@ public class MusicManager : MonoBehaviour
     public StudioEventEmitter eventEmitter;
     [EventRef] public string eventToPlay;
     [ParamRef] public string hatChangeParam;
-    bool hatEquipped;
-    bool state;
+    bool _hatEquipped;
+    bool _state;
     
     void Awake()
     {
@@ -36,19 +36,19 @@ public class MusicManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.H)) EquipHat();
 
-        if (Input.GetKeyDown(KeyCode.Space)) ChangeActionState();
+        //if (Input.GetKeyDown(KeyCode.Space)) ChangeActionState();
     }
 
     void EquipHat()
     {
-        hatEquipped = !hatEquipped;
-        UiManager.DisplayHat = hatEquipped;
-        RuntimeManager.StudioSystem.setParameterByName(hatChangeParam, hatEquipped ? 1.0f : 0.0f);
+        _hatEquipped = !_hatEquipped;
+        UiManager.DisplayHat = _hatEquipped;
+        RuntimeManager.StudioSystem.setParameterByName(hatChangeParam, _hatEquipped ? 1.0f : 0.0f);
     }
 
-    void ChangeActionState()
+    public void ChangeActionState()
     {
-        state = !state;
-        RuntimeManager.StudioSystem.setParameterByName(actionParam, state ? 1.0f : 0.0f);
+        _state = !_state;
+        RuntimeManager.StudioSystem.setParameterByName(actionParam, _state ? 1.0f : 0.0f);
     }
 }
