@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{0a235729-3a8e-47b7-a86e-aa5ab1a87e7e}">
+		<property name="assetPath">
+			<value>Music/Burgertime/Burgertime_BanjoOnly.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>78.545532879818595</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{df2ffc5f-93bf-4f46-b876-4c9724a5f8f8}</destination>
+		</relationship>
+	</object>
+</objects>

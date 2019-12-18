@@ -4,13 +4,12 @@ using UnityEngine;
 [RequireComponent(typeof(StudioEventEmitter))]
 public class MusicManager : MonoBehaviour
 {
-    [ParamRef] public string actionParam;
     public StudioEventEmitter eventEmitter;
     [EventRef] public string eventToPlay;
     [ParamRef] public string hatChangeParam;
-    bool _hatEquipped;
-    bool _state;
-    
+    bool hatEquipped;
+    [ParamRef] public string musicStateParam;
+
     void Awake()
     {
         FindComponents();
@@ -35,20 +34,26 @@ public class MusicManager : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.H)) EquipHat();
-
-        //if (Input.GetKeyDown(KeyCode.Space)) ChangeActionState();
     }
 
     void EquipHat()
     {
-        _hatEquipped = !_hatEquipped;
-        UiManager.DisplayHat = _hatEquipped;
-        RuntimeManager.StudioSystem.setParameterByName(hatChangeParam, _hatEquipped ? 1.0f : 0.0f);
+        hatEquipped = !hatEquipped;
+        UiManager.DisplayHat = hatEquipped;
+        
+        
+        RuntimeManager.StudioSystem.setParameterByName(hatChangeParam, hatEquipped ? 1.0f : 0.0f);
     }
 
-    public void ChangeActionState()
+    public void ChangeMusicState(MusicState musicState)
     {
-        _state = !_state;
-        RuntimeManager.StudioSystem.setParameterByName(actionParam, _state ? 1.0f : 0.0f);
+        RuntimeManager.StudioSystem.setParameterByName(musicStateParam, (int) musicState);
     }
+}
+
+public enum MusicState
+{
+    Core = 0,
+    Omninus = 1,
+    BurgerTime = 2
 }
