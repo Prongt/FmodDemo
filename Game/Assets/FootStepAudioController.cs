@@ -43,12 +43,12 @@ public class FootStepAudioController : MonoBehaviour
         
         if (hitInfo.collider.CompareTag("Floor/Wood"))
         {
-            floorValue = 2.0f;
+            floorValue = 0.0f;
         }
             
         if (hitInfo.collider.CompareTag("Floor/Concrete"))
         {
-            floorValue = 0.0f;
+            floorValue = 2.0f;
         }
         
         RuntimeManager.StudioSystem.setParameterByName(floorType, floorValue);
