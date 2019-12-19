@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="683b62b7-a290-4aa8-82d0-76c68b05e3d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Music.bank" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Music.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FmodProject/Metadata/Event/{40f933e8-8425-444c-8120-6c627d7447c6}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Metadata/Event/{40f933e8-8425-444c-8120-6c627d7447c6}.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BurgerMan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BurgerMan.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/BurgerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BurgerManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Stingers.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Stingers.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Music.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Music.bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vocals.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vocals.bank" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +51,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/FootStepAudioController.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayOnEnter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Patrick.cs" />
         <option value="$PROJECT_DIR$/Assets/ChangeParameters.cs" />
-        <option value="$PROJECT_DIR$/Assets/BurgerMan.cs" />
         <option value="$PROJECT_DIR$/Assets/BurgerManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/BurgerMan.cs" />
       </list>
     </option>
   </component>
@@ -116,7 +121,7 @@
       <workItem from="1576673269668" duration="678000" />
       <workItem from="1576679259174" duration="225000" />
       <workItem from="1576696689716" duration="5194000" />
-      <workItem from="1576770417878" duration="3643000" />
+      <workItem from="1576770417878" duration="5773000" />
     </task>
     <servers />
   </component>

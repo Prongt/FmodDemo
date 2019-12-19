@@ -1,4 +1,6 @@
-﻿using FMODUnity;
+﻿using System.Collections;
+using System.Collections.Generic;
+using FMODUnity;
 using UnityEngine;
 
 [RequireComponent(typeof(StudioEventEmitter))]
@@ -16,7 +18,10 @@ public class BurgerManager : MonoBehaviour
 
     void OnEnable()
     {
+        //StartCoroutine(MusicManager.ReduceVolume(7.0f, 0.5f));
         eventEmitter.Play();
         animator.enabled = true;
     }
+
+    
 }

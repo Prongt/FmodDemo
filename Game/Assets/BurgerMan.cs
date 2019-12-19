@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using FMODUnity;
 using UnityEngine;
 
@@ -32,11 +34,16 @@ public class BurgerMan : MonoBehaviour
         if (!playerInRange) return;
 
         if (!Input.GetKeyDown(KeyCode.E)) return;
-        
-        Burger.SetActive(true);
-            
+
+        StartCoroutine(SpawnBurger());
         StopEmitters();
         OnBurgerEmitter.Play();
+    }
+
+    IEnumerator SpawnBurger()
+    {
+        yield return new WaitForSeconds(2.0f);
+        Burger.SetActive(true);
     }
 
     void StopEmitters()
@@ -54,6 +61,8 @@ public class BurgerMan : MonoBehaviour
         
         StopEmitters();
         OnEnterEmitter.Play();
+        
+        MusicManager.SetVolume(0.75f);
     }
 
     void OnTriggerExit(Collider other)
@@ -62,5 +71,7 @@ public class BurgerMan : MonoBehaviour
 
         BurgerUI.SetActive(false);
         playerInRange = false;
+        
+        MusicManager.SetVolume(1.0f);
     }
 }
