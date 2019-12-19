@@ -1,21 +1,22 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using FMODUnity;
+﻿using FMODUnity;
 using UnityEngine;
 
+[RequireComponent(typeof(StudioEventEmitter))]
 public class BurgerManager : MonoBehaviour
 {
-    public GameObject Burger;
-    public GameObject BurgerUI;
-    [EventRef] public string OnEnter;
-    [EventRef] public string OnRequestsBurger;
-    
-
-    bool playerInRange;
     StudioEventEmitter eventEmitter;
+    Animator animator;
 
     void Awake()
     {
         eventEmitter = eventEmitter ? eventEmitter : GetComponent<StudioEventEmitter>();
+        animator = animator ? animator : GetComponent<Animator>();
+        animator.enabled = false;
+    }
+
+    void OnEnable()
+    {
+        eventEmitter.Play();
+        animator.enabled = true;
     }
 }
