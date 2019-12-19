@@ -81,5 +81,7 @@ MonoBehaviour:
   Banks:
   - Effects
   - Music
+  - Stingers
+  - Vocals
   BanksToLoad: []
   LiveUpdatePort: 9264

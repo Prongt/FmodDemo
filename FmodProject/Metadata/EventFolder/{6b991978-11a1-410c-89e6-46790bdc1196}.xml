@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{6b991978-11a1-410c-89e6-46790bdc1196}">
+		<property name="name">
+			<value>Robot Voice Lines</value>
+		</property>
+		<relationship name="folder">
+			<destination>{28274144-77ba-4fc8-900b-e93505d61585}</destination>
+		</relationship>
+	</object>
+</objects>

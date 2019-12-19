@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{61bb7c60-bfb6-4292-8e7e-00341626cc26}">
+		<property name="assetPath">
+			<value>Robot Voice Lines/Would You Like A Burger.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>22.0499992</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.5591383219954649</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{df2ffc5f-93bf-4f46-b876-4c9724a5f8f8}</destination>
+		</relationship>
+	</object>
+</objects>
