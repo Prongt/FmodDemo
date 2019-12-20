@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{804b9a2c-0cec-43bd-8d2b-d528c9a4c052}">
+		<property name="assetPath">
+			<value>Effects/Shooting/Laser_Shoot1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.26557823129251701</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{df2ffc5f-93bf-4f46-b876-4c9724a5f8f8}</destination>
+		</relationship>
+	</object>
+</objects>
