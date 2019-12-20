@@ -4,7 +4,7 @@ using FMODUnity;
 using UnityEngine;
 
 [RequireComponent(typeof(StudioEventEmitter))]
-public class BurgerManager : MonoBehaviour
+public class Burger : MonoBehaviour
 {
     StudioEventEmitter eventEmitter;
     Animator animator;

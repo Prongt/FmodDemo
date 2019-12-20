@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="683b62b7-a290-4aa8-82d0-76c68b05e3d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Effects.bank" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Effects.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Master.strings.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Music.bank" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Build/Desktop/Music.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FmodProject/Metadata/Event/{40f933e8-8425-444c-8120-6c627d7447c6}.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FmodProject/Metadata/Event/{40f933e8-8425-444c-8120-6c627d7447c6}.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FmodProject/Metadata/Event/{b2c75873-3a52-419e-8e1b-81c0952b3691}.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FootStepAudioController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FootStepAudioController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Effects.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Effects.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master.strings.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Master.strings.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Music.bank" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Music.bank" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BurgerMan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NpcBurgerMan.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BurgerMan.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NpcBurgerMan.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BurgerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Burger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BurgerManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Burger.cs.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,16 +23,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioGlobalParameterTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FootStepAudioController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shooting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioEventEmitter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NpcBurgerMan.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Burger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioGlobalParameterTriggerEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/Resources/FMODStudioCache.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/src/Runtime/StudioEventEmitter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/FMOD/src/Editor/StudioGlobalParameterTriggerEditor.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -57,6 +49,8 @@
         <option value="$PROJECT_DIR$/Assets/BurgerMan.cs" />
         <option value="$PROJECT_DIR$/Assets/Shooting.cs" />
         <option value="$PROJECT_DIR$/Assets/FootStepAudioController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Burger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NpcBurgerMan.cs" />
       </list>
     </option>
   </component>
@@ -126,6 +120,7 @@
       <workItem from="1576696689716" duration="5194000" />
       <workItem from="1576770417878" duration="5773000" />
       <workItem from="1576865547158" duration="701000" />
+      <workItem from="1576870143457" duration="105000" />
     </task>
     <servers />
   </component>

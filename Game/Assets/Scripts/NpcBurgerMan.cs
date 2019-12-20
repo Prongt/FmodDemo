@@ -5,7 +5,7 @@ using FMODUnity;
 using UnityEngine;
 
 
-public class BurgerMan : MonoBehaviour
+public class NpcBurgerMan : MonoBehaviour
 {
     public GameObject Burger;
     public GameObject BurgerUI;
